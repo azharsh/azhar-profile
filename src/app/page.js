@@ -320,6 +320,34 @@ export default function Home() {
                   style={{ width: 24, height: 24 }}
                 />
               </a>
+
+              <a
+                href="https://github.com/azharsh"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{
+                  width: 48,
+                  height: 48,
+                  borderRadius: "50%",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  background: "rgba(255,255,255,0.08)",
+                  border: "1px solid rgba(255,255,255,0.2)",
+                  backdropFilter: "blur(10px)",
+                  transition: "0.3s ease",
+                }}
+              >
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                  alt="GitHub"
+                  style={{
+                    width: 24,
+                    height: 24,
+                    filter: "invert(1)", // makes github icon white
+                  }}
+                />
+              </a>
             </div>
           </div>
         </div>
@@ -425,7 +453,7 @@ export default function Home() {
                     width: 26,
                     height: 26,
                     objectFit: "contain",
-                   
+
                   }}
                 />
               </div>
